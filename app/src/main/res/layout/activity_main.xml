@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:orientation="vertical">
+
+    <include layout="@layout/layout_activity_title_no_back" />
+    <android.support.v7.widget.RecyclerView
+            android:background="@color/color_ffffff"
+            android:paddingTop="12px"
+            android:id="@+id/rl_top_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pull_to_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:id="@+id/lv_service"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10px"
+                android:divider="@color/color_00ffffff"
+                android:dividerHeight="10px"
+                android:scrollbars="none"></ListView>
+    </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+    <!--<color name="color_6395fb">#6395fb</color>-->
+    <color name="color_666666">#666</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_00ffffff">#00ffffff</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_272727">#272727</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_fa5741">#fa5741</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_6395fb">#6395fb</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_ff0000">#ff0000</color>
+    <color name="color_282828">#282828</color>
+    <color name="color_dcdcdc">#dcdcdc</color>
+    <color name="color_5d89ff">#5d89ff</color>
+    <color name="color_background">#f8f8f8</color>
+    <color name="color_e6c383">#e6c383</color>
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_5d8aff">#5d8aff</color>
+    <color name="color_FD6303">#FD6303</color>
+    <color name="color_1a1a1a">#1A1A1A</color>
+    <color name="color_68c946">#68C946</color>
+</resources>

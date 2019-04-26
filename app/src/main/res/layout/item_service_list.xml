@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="match_parent"
+                                       android:background="@drawable/bg_item_shape"
+                                       android:layout_height="wrap_content">
+    <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_name"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:textColor="@color/color_333333"
+            android:text="张国富"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/tv_sex"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/tv_name"
+            android:textColor="@color/color_999999"
+            android:textSize="14dp"
+            android:text="男"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/tv_age"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/tv_sex"
+            android:textColor="@color/color_999999"
+            android:textSize="14dp"
+            android:text="65岁"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/tv_type"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#68C946"
+            android:textSize="14dp"
+            android:text="待服务"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/tv_service_type"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="预约服务类型："
+            android:textColor="@color/color_999999"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_service_time"
+            android:layout_below="@+id/tv_service_type"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="15dp"
+            android:text="预约服务时间："
+            android:textColor="@color/color_999999"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</RelativeLayout>

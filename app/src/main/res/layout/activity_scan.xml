@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/activity_second"
+                                       android:orientation="vertical"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent">
+    <FrameLayout
+            android:id="@+id/fl_my_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+    >
+    </FrameLayout>
+    <RelativeLayout
+            android:layout_marginTop="24dp"
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#00ffffff">
+
+        <LinearLayout
+                android:id="@+id/ly_title_back"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+            <ImageView
+                    android:src="@mipmap/icon_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp" />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/color_ffffff"
+                android:textSize="18dp" />
+    </RelativeLayout>
+    <!--<TextView-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:id="@+id/tv_open_light"-->
+    <!--android:layout_marginBottom="@dimen/dimen_40"-->
+    <!--android:textSize="@dimen/dimen_15"-->
+    <!--android:textColor="@color/color_ffffff"-->
+    <!--android:text="@string/open_night"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+</RelativeLayout>
